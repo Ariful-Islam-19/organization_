@@ -1,0 +1,105 @@
+
+
+/* banner */
+.banner_blog_expand{
+    background: url(./banner/blog_expand.jpg) no-repeat center center;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    top: 119px;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-attachment: scroll;
+    transform: translate3d(0px, 0px, 0px);
+    transition: 0.4s;
+    margin-bottom: 160px;
+}
+.banner_blog::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1b0202;
+    opacity: 0.5678;
+}
+
+.banner_right_top_blog h4 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: none;
+    text-align: center;
+    
+}
+
+/* blog expand detail */
+
+.blog_expand {
+    margin-top: 200px;
+}
+.blog_expand_inner{}
+.test{
+    width: 100%;
+    text-align: center;
+}
+.blog_expand_inner_top {
+    width: 80%;
+    position: relative;
+    margin-left: 50px;
+}
+.blog_expand_inner_top::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background:blue;
+   opacity: 0.1;
+   transition: 1s;
+}
+.test:hover .blog_expand_inner_top::after{
+    opacity: 0;
+}
+.blog_expand_inner_top img {
+    width: 100%;
+    text-align: center;
+}
+.blog_expand_inner_bottom{}
+.blog_expand_inner_bottom h3 {
+    margin-top: 21px;
+    font-size: 20px;
+    color: #4B4B4B;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 32px;
+    font-style: italic;
+}
+.blog_expand_inner_bottom p {
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.blog_expand_inner_bottom ul {
+    list-style: none;
+}
+.blog_expand_inner_bottom ul li {
+    padding: 5px;
+}
+.blog_expand_inner_bottom ul li a {
+    color: darkorange;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.blog_expand_inner_bottom ul li a:hover{
+    color: black;
+  
+}
+.blog_expand_inner_bottom ul li span {
+    letter-spacing: 10px;
+    color: mediumseagreen;
+}

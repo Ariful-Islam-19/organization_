@@ -1,0 +1,9 @@
+1) https://miah.shop/eid-collection
+
+2) Animated Font Awesome: https://fontawesome.com/v5/docs/web/style/animate
+
+3) Font Awesome: https://fontawesome.com/v4/icons/
+
+4) Toast: https://getbootstrap.com/docs/4.3/components/modal/
+
+5) latest bootstrap free design  https://getbootstrap.com/docs/5.2/

@@ -1,0 +1,69 @@
+
+
+
+/* cv */
+
+
+@media(max-width:1400px){
+
+    .cv_top {
+     
+        margin-left: 42px;
+       
+    }
+}
+
+
+@media(max-width:1200px){
+    .cv_top {
+        text-align: center;
+        margin-left: 34px;
+    }
+
+    .book_bottom ul li {
+        display: inline-block;
+        padding: 7px 8px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media(max-width:992px){
+    .cv_top {
+        text-align: center;
+        margin-left: 51px;
+    }
+    
+}
+
+@media(max-width:768px){
+    .cv_top {
+        text-align: center;
+        margin-left: 27px;
+    }
+    
+}
+
+@media(max-width:576px){
+    .cv_top {
+        text-align: center;
+        margin-left: 70px;
+    }
+    
+}
+
+@media(max-width:425px){
+    .cv_top {
+        text-align: center;
+        margin-left: 45px;
+    }
+    
+}
+
+@media(max-width:335px){
+    .cv_top {
+        text-align: center;
+        margin-left: 25px;
+    }
+    
+}

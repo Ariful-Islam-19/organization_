@@ -1,0 +1,23 @@
+
+
+@media(max-width:1199px){
+    .advisor_mid_in {
+        
+        margin-top: 20px;
+        margin-bottom: 36px;
+    }
+    .advisor {
+        margin-top: -60px;
+    }
+   
+}
+
+@media(max-width:375px){
+    .advisor_mid_in {
+       
+        margin-top: 4px;
+        margin-bottom: 24px;
+    }
+   
+}
+

@@ -1,0 +1,270 @@
+
+/* --About_Video_Section-- */
+
+@media(max-width:991px){
+    .Video_right_inner {
+        text-align: center;
+    }
+    .Video_right {
+        margin-top: -120px;
+    }
+    
+}
+@media(max-width:617px){
+   
+    .Video_right {
+        margin-top: -30px;
+    }
+    
+}
+@media(max-width:575px){
+   
+    .Video_left h3 {
+        font-size: 35px;
+    }
+    .Video_right {
+        margin-top: -120px;
+    }
+    
+}
+@media(max-width:480px){
+   
+    .Video_right {
+        margin-top: -80px;
+    }
+    
+}
+@media(max-width:425px){
+   
+    .Video_right_inner a {
+        padding: 15px; 
+        font-size: 28px;
+    }
+    .Video_right_inner a span {
+        font-size: 30px;
+    }
+    .Video_right_inner a::before{
+        height: 80px;
+        width: 80px;
+    }
+    .Video_right {
+        margin-top: 0px;
+    }
+    
+}
+@media(max-width:375px){
+   
+    .Video_left h3 {
+        font-size: 30px;
+    }
+    
+}
+
+
+/*----- Box Section------*/
+
+@media(max-width:1199px){
+    .inner_last {
+        margin-top: -27px;
+        margin-left: 240px;
+    }
+}
+@media(max-width:991px){
+    .inner_middle {
+        padding-bottom: 85px !important;
+    }
+    .inner_last {
+    margin-left: 188px;
+    }
+}
+@media(max-width:767px){
+    .inner_middle {
+    margin-top: -10px;
+    }
+    .inner_last {
+        margin-left: 0px;
+    }
+}
+@media(max-width:575px){
+    .box_section {
+    padding: 50px;
+    }
+    .inner_middle {
+    margin-top: -80px;
+    }
+    .inner_last {
+    margin-top: -100px;
+    }
+}
+@media(max-width:425px){
+    .box_section h3 {
+       font-size: 20px;
+    }
+    .box_section p {
+        font-size: 13px;
+    }
+   
+}
+
+@media(max-width:375px){
+    .box_section {
+    padding: 30px;
+    }
+   
+}
+@media(max-width:320px){
+    .box_section {
+    padding: 20px;
+    }
+   
+}
+/*-----Donation_Section-----*/
+
+@media(max-width:1024px){
+    .donation_left_inner {
+        margin-top: 104px;
+    }
+}
+
+@media(max-width:991px){
+    .donation_left_inner img {
+        height: 100%;
+        width: 28%;
+        margin-top: 0px;
+    }
+    .donation_right_inner {
+        text-align: center;
+    }
+
+   
+    .donation_right {
+        text-align: center;
+        margin-top: 74px;
+    }
+    .donation_right_inner h2 {
+      margin-bottom: 30px;
+    }
+    .donation_right_inner a::after{
+        padding-top: 11px;
+       
+    }
+    .donation_right_inner :hover::after{
+        padding-top: 11px;
+        padding-left: 0px;
+    }
+}
+
+@media(max-width:828px){
+    .donation_left_inner img {
+        width: 35%;
+    }
+    .donation_right {
+        text-align: center;
+        margin-top: 60px;
+    }
+}
+@media(max-width:575px){
+    .donation_left_inner img {
+        width: 60%;
+    }
+}
+@media(max-width:425px){
+    .donation_right_inner h2 {
+        font-size: 33px;
+    }
+}
+@media(max-width:375px){
+    .donation_left_inner img {
+        width: 70%;
+    }
+}
+
+
+/* --Typical_Project_Section-- */
+
+
+@media(max-width:991px){
+    .Typical_Project h3 {
+        margin-bottom: 0px;
+    }
+    .typical_project_inner_ul {
+        margin-right: 250px;
+    }
+    .typical_project_inner ul li span {
+        margin-left: -46px;
+    }
+}
+
+@media(max-width:767px){
+    .typical_project_inner_ul {
+        margin-right: 190px;
+    }
+    .typical_project_inner_ul_1::before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 71%;
+        left: 258px;
+        top: 100px;
+        background: bisque;
+    }
+}
+
+@media(max-width:575px){
+    .typical_project_inner ul li span {
+        font-weight: 500;
+    }
+    .Typical_Project h3 {
+        font-size: 25px;
+        margin-bottom: -20px;
+        margin-left: 35px;
+    }
+    .typical_project_inner_ul {
+        margin-right: 80px;
+        margin-left: 65px;
+    }
+    .typical_project_inner ul li {
+        padding-top: 35px;
+    }
+    .typical_project_inner ul li::after {
+    left: 50px;
+    width: 74%;
+    }
+    .typical_project_inner_ul_1::before {
+        height: 72%;
+        top: 60px; 
+    }
+   
+        
+}
+
+@media(max-width:520px){
+    .typical_project_inner_ul_1::before {
+        height: 0%;
+    }
+    .typical_project_inner ul {
+        display: block;
+       
+    }
+    .typical_project_inner_ul {
+        margin-right: 0px;
+        margin-left: 41px;
+    }
+    .typical_project_inner_ul_1{
+        margin-left: 37px;
+    }
+        
+}
+
+@media(max-width:460px){
+    
+    .Typical_Project {
+        margin-top: 0px;
+    }
+    .Typical_Project h3 {
+        letter-spacing: 0px;
+        font-weight: 500;
+       
+    }  
+}
+

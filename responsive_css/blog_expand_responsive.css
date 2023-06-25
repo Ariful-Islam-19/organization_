@@ -1,0 +1,22 @@
+/* Blog expand expand */
+
+
+@media(max-width:768px){
+    .blog_expand_inner_top img {
+        width: 100%;
+        text-align: center;
+    }
+    .blog_expand_inner_top {
+        width: 100%;
+        margin-left: 0px;
+    }
+   
+    
+}
+
+@media(max-width:425px){
+    .blog_expand_inner_bottom h3 {
+        font-size: 17px;
+    }
+    
+}

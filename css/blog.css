@@ -1,0 +1,134 @@
+/* Bannaer */
+
+
+
+/* ----blog banner section---*/
+
+
+.banner_blog{
+    background: url(./banner/Blog-banner-final.jpg) no-repeat center center;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    top: 119px;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-attachment: scroll;
+    transform: translate3d(0px, 0px, 0px);
+    transition: 0.4s;
+    margin-bottom: 160px;
+}
+.banner_blog::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1b0202;
+    opacity: 0.2678;
+}
+.banner_blog:hover .banner_top_blog{
+    transform: translatey(-30px);
+}
+
+.banner_top_blog {
+    position: absolute;
+    top: 175px;
+    transition: 0.6s;
+    text-align: center;
+    z-index: 1;
+}
+.banner_right_top_blog {
+    margin-bottom: 25px;
+
+}
+.banner_right_top_blog h2 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: none;
+    
+}
+
+
+
+
+/*  ---- blog News---- */
+
+.blog_news{
+    margin-top: 200px;
+}
+.blog_inne{
+    margin-bottom: 50px;
+    
+}
+.blog_inner_top{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+   
+}
+.blog_inner_top::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: blue;
+    opacity: 0.1;
+    cursor: pointer;
+    transition: 1s;
+   
+}
+.blog_inne:hover .blog_inner_top img{
+transform: scale(1.3);
+transition: 5s ease-in-out;
+}
+.blog_inne:hover .blog_inner_top::after {
+opacity: 0;
+
+}
+.blog_inner_top img{
+    width: 100%;
+}
+.blog_inner_bottom{}
+.blog_inner_bottom a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: inherit;
+    color: #747185;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+.blog_inner_bottom h3:hover a{
+    color:#f09a3e;
+}
+.blog_inner_bottom h3{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #060221;
+}
+.blog_inner_bottom p{
+    font-size: 17px;
+    margin-top: 17px;
+    font-family: system-ui;
+    line-height: 27px;
+}
+.blog_inner_bottom_a {
+    color: #f09a3e !important;
+    transition: 0.4s;
+}
+..blog_inner_bottom_a:hover{
+    color: green !important;
+}
+.blog_inner_bottom_link{
+    font-size: 14px !important;
+    color: #f09a3e !important;
+}

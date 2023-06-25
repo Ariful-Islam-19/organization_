@@ -1,0 +1,147 @@
+
+
+
+/* banner */
+
+
+.advisor_banner{
+    background: url(./banner/advisor.jpg) no-repeat center center;
+   position: relative;
+   top: 117px;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.advisor_banner::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1b0202;
+    opacity: 0.09678;
+}
+
+
+
+
+
+
+
+/* <!-- our advisor --> */
+
+
+.advisor{}
+
+.advisor_col {
+    box-shadow: 0px 0px 307px 0px #e9e9e9;
+    padding: 60px 50px;
+    margin-bottom: 80px;
+}
+.advisor_top{}
+.advisor_top a{
+    text-decoration: none;
+    color: orange;
+    font-size: 17px;
+    transition: 0.4s;
+}
+.advisor_top a:hover{
+    color: red;
+}
+.advisor_top a span{}
+.advisor_top strong{
+    font-family: sans-serif;
+    font-style: italic;
+}
+.advisor_top p{
+    font-size: 11px;
+    margin-top: 6px;
+    color: mediumvioletred;
+}
+.advisor_mid{}
+.advisor_mid_in{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.advisor_mid_in img{
+    width: 100%;
+    transition: 3s;
+}
+.advisor_mid_in::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: blue;
+    opacity: 0.08;
+    transition: 2s;
+}
+.advisor_col:hover .advisor_mid_in img{
+    transform: scale(1.3);
+}
+.advisor_col:hover .advisor_mid_in::after{
+    opacity: 0;
+}
+.advisor_bottom{}
+.advisor_bottom h2{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: black;
+    letter-spacing: 0.2px;
+    font-style: italic;
+}
+.advisor_bottom p{
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.link_1 {
+    text-decoration: none;
+    color: white;
+    background: orange;
+    padding: 10px 40px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    position: relative;
+    top: 10px;
+}
+.link_1:hover{
+    background: red;
+    color: white;
+    text-decoration: none;
+}
+.advisor_bottom a span{}
+.quick_link {
+    margin-top: 40px;
+}
+.quick_link li{
+    display: inline-block;
+    position: relative;
+    left: -37px;
+}
+.quick_link li a {
+    border-radius: 6px;
+    padding: 0px 10px;
+    color: darkred;
+    transition: 0.4s;
+}
+.quick_link li a:hover{
+    color: red;
+}
+.quick_link li a span{}
+.special_h {
+    text-align: center;
+    margin-bottom: 25px;
+    color: orange;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}

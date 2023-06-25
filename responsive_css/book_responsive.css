@@ -1,0 +1,81 @@
+
+
+
+/* book */
+
+
+@media(max-width:1399px){
+
+
+    .book_bottom ul li {
+        display: inline-block;
+        padding: 7px 8px;
+    }
+
+    .book_top iframe {
+        width: 72%;
+    }
+   
+    
+}
+
+@media(max-width:991px){
+
+
+    .book_bottom ul li {
+        display: inline-block;
+        padding: 7px 3px;
+    }
+
+    .book_top iframe {
+        width: 76%;
+    }
+   
+    
+}
+
+@media(max-width:767px){
+
+    .book_top iframe {
+        width: 48%;
+    }
+ 
+}
+
+@media(max-width:590px){
+
+    .blog_bottom h3 {
+        margin-top: 33px;
+        margin-bottom: 20px;
+    }
+
+    
+ 
+}
+
+@media(max-width:425px){
+
+    .book_top iframe {
+        width: 73%;
+    }
+ 
+}
+
+@media(max-width:358px){
+
+    .book_top iframe {
+        width: 80%;
+    }
+
+    .book_bottom ul {
+        list-style: none;
+        margin-left: -34px;
+    }
+
+    .book_bottom ul li {
+        display: inline-block;
+        padding: 0px 0px;
+        margin-bottom: 36px;
+    }
+ 
+}

@@ -1,0 +1,31 @@
+
+
+/* email */
+
+
+
+@media(max-width:592px){
+
+
+    .email_col h2 {
+        font-size: 30px;
+        
+    }
+    
+}
+
+@media(max-width:375px){
+
+
+    .email_col h2 {
+        font-size: 25px;
+    }
+    .email_col p {
+        color: #747185;
+        font-size: 15px;
+    }
+    .email_col h3 {
+        font-size: 21px;
+    }
+       
+}

@@ -1,0 +1,68 @@
+
+/* banner */
+
+.banner_email{
+    background: url(./banner/email.jpg) no-repeat center center;
+   position: relative;
+   top: 117px;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner_email::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1b0202;
+    opacity: 0.09678;
+}
+
+
+/* email */
+
+.email {
+    margin-top: -28px;
+}
+.email_col{}
+.email_col h2 {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: none;
+    margin-bottom: 40px;
+}
+.email_col p {
+    color: #747185;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.email_col h3 {
+    color: #6f6f6f;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.email_col ul{}
+.email_col ul li {
+    padding: 10px 10px;
+    color: orange;
+    font-size: 17px;
+    font-weight: 500;
+}
+.email_col ul li strong{}
+
+.background_email {
+    text-align: center;
+    margin-bottom: 43px;
+    margin-top: 43px;
+    box-shadow: 0px 0px 178px 0px #e9e9e9;
+    padding: 5px;
+}
+.background_email img {
+    width: 100%;
+}
